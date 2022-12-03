@@ -2,7 +2,7 @@
 
  Sketch for Bolt Industries VFD Clock with Pico Wifi
 
- This is a simple update that allows rthe excellent Bolt Industries VFD clock 
+ This is a simple update that allows the excellent Bolt Industries VFD clock 
 
  https://www.boltind.com/vfd-clock-assembly/
 
@@ -59,3 +59,5 @@ Which returns this:
 It should keep good time on its own and once the wifi gets the global time it should be fairly accurate.  You can still adjust with the minutes if need be.
 
 This is just an idea so much more could be done with it.
+
+<img src='https://github.com/daverobertson63/VFDGlobalClock/blob/main/IMG_5377.JPG'/>
