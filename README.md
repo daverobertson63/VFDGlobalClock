@@ -23,10 +23,12 @@
 
 Create a new sketch and create a secrets.h file with the following wifi creds.
 
+```
 #ifndef STASSID
 #define STASSID "*******"
 #define STAPSK "********"
 #endif
+```
 
 Now just download
 
@@ -36,6 +38,7 @@ https://www.timeapi.io/api/Time/current/zone?timeZone=Europe/Amsterdam
 
 Which returns this:
 
+```
 {
   "year": 2022,
   "month": 12,
@@ -51,6 +54,7 @@ Which returns this:
   "dayOfWeek": "Saturday",
   "dstActive": false
 }
+```
 
 It should keep good time on its own and once the wifi gets the global time it should be fairly accurate.  You can still adjust with the minutes if need be.
 
