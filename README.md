@@ -2,13 +2,15 @@
 
  Sketch for Bolt Industries VFD Clock with Pico Wifi
 
- This is a simple update that allows the excellent Bolt Industries VFD clock 
+ This is a simple update that allows the excellent Bolt Industries VFD clock to be on Global time... 
 
  https://www.boltind.com/vfd-clock-assembly/
 
- It adds a simple wifi connection assuming you use the very excellent British designed PICO Wifi
+ It adds a simple wifi connection assuming you use the very excellent British designed PICO Wifi or PICO W.
 
- The main difference is that the PICO W uses a different pin for the LED.  Thats all - everything else works ok
+ The main difference is that the PICO W uses a different pin for the LED.  Thats all - everything else works ok for the existing instructions.
+
+ The kit comes with a standard Pico ohne Wifi but I wanted it to sync with the world. 
 
 
 
@@ -32,7 +34,7 @@ Create a new sketch and create a secrets.h file with the following wifi creds.
 
 Now just download
 
-I have used the PinButton library so it can detect a double click on the seconds switch.  If you double click it will use the free timeapi.io REST api like this 
+I have used the PinButton library so it can detect a double click on the seconds switch.  If you double click it will use the free timeapi.io REST api like this: 
 
 https://www.timeapi.io/api/Time/current/zone?timeZone=Europe/Amsterdam
 
@@ -57,6 +59,8 @@ Which returns this:
 ```
 
 It should keep good time on its own and once the wifi gets the global time it should be fairly accurate.  You can still adjust with the minutes if need be.
+
+Obviosuly its all hard coded - but you could use the Arduino WiFiManager libs to maybe do something more configurable - but its my clock and once its done - it does its job and tells me the time in Kyiv time since that is where I got my VFD tubes from. 
 
 This is just an idea so much more could be done with it.
 

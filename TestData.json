@@ -1,0 +1,15 @@
+{
+    "year": 2022,
+    "month": 12,
+    "day": 3,
+    "hour": 12,
+    "minute": 31,
+    "seconds": 20,
+    "milliSeconds": 351,
+    "dateTime": "2022-12-03T12:31:20.351351",
+    "date": "12/03/2022",
+    "time": "12:31",
+    "timeZone": "Europe/Amsterdam",
+    "dayOfWeek": "Saturday",
+    "dstActive": false
+  }

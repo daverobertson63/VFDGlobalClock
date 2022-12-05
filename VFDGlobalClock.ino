@@ -39,10 +39,6 @@ boolean UseGlobalClock=false;
 int wifiTries=0;
 DynamicJsonDocument doc(256);
 
-
-
-
-
 #define SO1 0
 #define SO2 1
 #define SO4 2
